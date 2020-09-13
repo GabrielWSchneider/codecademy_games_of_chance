@@ -30,20 +30,13 @@ Once again, this function should have a parameter that allows a player to bet an
 Additional challenge: Check Hint
 
 
-5. Create a function that simulates some of the rules of roulette. A random number should be generated that determines which space the ball lands on.
-
-When we wrote our function, we allowed the user to guess "Odd", "Even", or a specific number. We also implemented the logic associated with the 0 and 00 spots. For example, the player loses if they guess either "Odd" or "Even" and either 0 or 00 comes up.
-
-Implement as many rules of roulette as you’d like. Make sure to consider the different ways roulette rewards a win. Check the hint to see more about this!
-
-
-6. Call each of your functions at least once. Below is an example of betting $10 on a coin flip and updating the amount of money you have based on whether you win or lose :
+5. Call each of your functions at least once. Below is an example of betting $10 on a coin flip and updating the amount of money you have based on whether you win or lose :
 
 money += coin_flip("Heads", 10)
 
 Make sure there are enough print statements so you can understand what games were played, what happened during those games, and the amount of money you have after each game is played.
 
 
-7. Expand your program to check for edge cases. What should happen if a player tries to bet more money than they have? What should happen if a player bets a negative amount of money? What should happen if a player calls "heads" or "Heads!" rather than "Heads".
+6. Expand your program to check for edge cases. What should happen if a player tries to bet more money than they have? What should happen if a player bets a negative amount of money? What should happen if a player calls "heads" or "Heads!" rather than "Heads".
 
 Try to make it very difficult for someone to break your program.
